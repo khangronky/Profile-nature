@@ -42,13 +42,13 @@ hr {
   margin: 100px auto;
 }
 
-#profile .avatar{
+.profile .avatar{
   width: 25%;
   border-radius: 42% 58% 51% 49% / 55% 44% 56% 45%;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 
-#profile .avatar:hover {
+.profile .avatar:hover {
   transform: scale(1.1);
 }
 
@@ -129,7 +129,7 @@ hr {
   width: 350px;
 }
 
-.title-text, #profile, #skills, #contact {
+.title-text, .profile, .skills, .contact {
   position: relative;
 }
 
@@ -139,42 +139,42 @@ hr {
   top: 40px;
 }
 
-#profile .cloud {
+.profile .cloud {
   position: absolute;
   left: 100px;
   top: 40px;
   width: 300px;
 }
 
-#profile .bird {
+.profile .bird {
   position: absolute;
   right: 100px;
   top: 40px;
   width: 150px;
 }
 
-#skills .cloud {
+.skills .cloud {
   position: absolute;
   right: 300px;
   top: 0;
   width: 200px;
 }
 
-#skills .paper-plane {
+.skills .paper-plane {
   position: absolute;
   left: 100px;
   top: 0;
   width: 200px;
 }
 
-#contact .cloud {
+.contact .cloud {
   position: absolute;
   left: 250px;
   bottom: 300px;
   width: 300px;
 }
 
-#contact .bee {
+.contact .bee {
   position: absolute;
   right: 100px;
   bottom: 50px;
@@ -239,7 +239,7 @@ hr {
   margin: 0 auto;
 }
 
-#contact-message {
+.contact-message {
   width: 40%;
   margin: 40px auto;
 }
